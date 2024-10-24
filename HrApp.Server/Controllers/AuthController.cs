@@ -11,7 +11,7 @@ using System.Text;
 
 namespace HrApp.Server.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {

@@ -9,6 +9,9 @@ namespace HrApp.Server.Data
         public MappingProfile() 
         {
             CreateMap<UserAccount, UserAccountDto>();
+            CreateMap<UserAccountDto, UserAccount>();
+            CreateMap<Candidate, CandidateDto>();
+            CreateMap<CandidateDto, Candidate>();
         }
     }
 }
